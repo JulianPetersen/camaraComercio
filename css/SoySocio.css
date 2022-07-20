@@ -1,0 +1,66 @@
+.ContenedorSoySocio{
+
+    width:100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ContenidoSoySocio{
+
+    width:80%;
+    display: flex;
+    
+    flex-direction: column;
+    
+    align-items: center;
+
+}
+
+
+.ContenidoSoySocio h2{
+
+    color:rgb(23,46,106);
+    
+}
+
+.ContenidoSoySocio p{
+
+    color:  rgb(23,46,106);
+    
+    margin: 20px;
+}
+
+.imgbtnpagar{
+
+    width: 100px;
+    
+}
+
+.imgcuotapagar{
+
+    width: 50%;
+
+}
+
+.botonyatras{
+    margin-top:50px;
+    width: 80%;
+    display: flex;
+    
+    justify-content: space-between;
+}
+
+#btn-pagar{
+    background-color: rgb(23,46,106);
+    padding: 20px 40px;
+    color:#fff;
+    border-radius: 20px ;
+}
+
+#btn-atras{
+
+    color: rgb(23,46,106);
+}

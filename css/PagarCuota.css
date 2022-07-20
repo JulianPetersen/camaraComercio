@@ -1,0 +1,12 @@
+.btnconprecio{
+
+    text-decoration: none;
+    background-color: rgb(23,46,106);
+    height: 50px;
+    width: 100px;
+    color: #fff;
+    text-align: center;
+    padding-top: 15px;
+    border-radius: 20px;
+    box-shadow: 10px 5px 5px gray;
+}

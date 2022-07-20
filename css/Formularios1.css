@@ -1,0 +1,156 @@
+
+.formularios1{
+
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    
+    
+}
+
+.asociate{
+
+    width: 40%;
+    height: 55%;
+    background-image: url(img/6.jpg);
+    background-size: contain;
+    
+    
+    
+}
+
+.asociateContenido{
+
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.asociateContenido h3{
+
+    color:rgb(23,46,106);
+    text-align: center;
+    margin-right: 40px;
+    margin-left: 40px;
+    font-size: 20px;
+}
+
+.asociateContenido p{
+
+    color:rgb(23,46,106);
+    text-align: center;
+    margin-right: 30px;
+    margin-left: 30px;
+    font-size: 17px;
+    font-family: Helvetica;
+
+}
+
+.asociateContenido a{
+
+    background: #23306B; /* Color real*/
+    color:#fff;
+    padding: 20px;
+    width:250px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: lighter;
+
+}
+
+.suscribete{
+    width: 40%;
+    height: 55%;
+    background-image: url(img/5.jpg);
+    background-size: contain;
+    display: flex;
+    flex-direction:column;
+    
+}
+
+.suscribeteContenido{
+    display: flex;
+    width:100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.suscribeteContenido p{
+
+    color:rgb(23,46,106);
+    font-size: 20px;
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+
+.FormSuscribete{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 50%;;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Campo{
+    
+    width: 60%;
+    height: 40px;
+    background-color: rgb(23,46,106);
+    color:#fff;
+}
+
+
+.Boton{
+
+    background: rgb(23,46,106);
+    color:#fff;
+    height: 60px;
+    width:250px;
+    text-align: center;
+
+}
+::placeholder{
+    color:#fff;
+}
+
+
+@media (max-width: 768px){
+
+    .formularios1{
+
+        flex-direction: column;
+    }
+
+    .asociate{
+
+        width: 90%;
+        height: 50%;
+        background-image: url(img/6.jpg);
+        background-size: contain;
+        
+        
+    }
+
+    .suscribete{
+        width: 90%;
+        height: 50%;
+        background-image: url(img/5.jpg);
+        background-size: contain;
+        display: flex;
+        flex-direction:column;
+        
+    }
+    
+}

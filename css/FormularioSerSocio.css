@@ -1,0 +1,83 @@
+.contendorSerSocio{
+
+    width:100%;
+    display: flex;
+    
+    justify-content: center;
+   
+}
+
+.FormularioSerSocio h3{
+
+    background-color: rgb(23,46,106);
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.FormularioSerSocio{
+
+    width: 70%;
+    
+    
+    
+}
+
+.InputFormSocioFecha{
+
+    width: 34%;
+    margin-right:0;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.FormularioSerSocio label{
+
+    color:rgb(23,46,106);
+    font-size: 15px;
+}
+
+.InputFormSocioOtro{
+
+    width: 24%;
+}
+.InputFormSocio{
+
+    width: 70%;
+    margin:10px;
+}
+
+.InputFormSocio::placeholder{
+    color:rgb(23,46,106);
+}
+
+.InputFormSocioFecha::placeholder{
+    color:rgb(23,46,106);
+}
+
+.InputFormSocioOtro::placeholder{
+    color:rgb(23,46,106);
+}
+
+.labelForm{
+    margin:10px;
+    color:rgb(23,46,106);
+    font-size: 15px;
+}
+
+.Sugerencias{
+    width: 70%;
+    height: 100px;
+    margin:10px;
+}
+
+.btnSerSocio{
+    margin: 10px;
+    width: 50%;
+    margin-left: 100px;
+    padding: 10px;
+    background-color:rgb(23,46,106);
+    color:#fff;
+}

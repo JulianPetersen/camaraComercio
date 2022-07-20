@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Camara de Comercio Brandsen</title>
+    <link rel="stylesheet" href="css/header.css ">
+    <link rel="stylesheet" href="css/ImagenPrincipal.css">
+    <link rel="stylesheet" href="css/nav2.css">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/quienesSomos.css">
+    <link rel="stylesheet" href="css/Noticias.css">
+    <link rel="stylesheet" href="css/Formularios1.css">
+    <link rel="stylesheet" href="css/Contacto.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/Social-bar.css">
+    <link rel="stylesheet" href="css/SerSocio.css">
+</head>
+<body>
+
+    <div class="social-bar">
+        <a href="" class="icon icon-facebook2" target="_blank"></a>
+        <a href="" class="icon icon-instagram" target="_blank"></a>
+        <a href="https://api.whatsapp.com/send?phone=542223465451" class="icon icon-whatsapp" target="_blank" ></a>
+    </div>
+
+    <header>
+           
+            <input type="checkbox" id="btn-menu">
+            <label for="btn-menu"><img src="img/iconoMenu.png" alt=""></label>
+
+        <div class="logo"><img src="img/LOGO.png" alt=""> </div>
+
+        <nav class="menu">
+            <ul>
+                <li><b><a href="">INICIO</a></b></li>
+                <li><b><a href="">INSTITUCIONAL</a></b></li>
+                <li><b><a href="#Noticia">NOTICIAS</a></b></li>
+                <li><b><a href="#Contacto">CONTACTO</a></b></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="ImagenPrincipal">
+
+            <img src="img/118.jpg" alt="">
+    </div>
+    
+    <div class="nav2">
+        
+            <div class="boton1"><b><a href="">MISION</a></b></div>    
+            <div class="boton2"><b><a href="">BENEFICIO</a></b></div>    
+            <div class="boton3"><b><a href="SerSocio.html">SER SOCIO</a></b></div>
+    </div>
+    
+
+    <article class="quienesSomos">
+        
+        <div>
+            <h1>¿QUIENES SOMOS?</h1> <br><br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Expedita ab corporis libero recusandae, fuga cupiditate? Eius illum quam 
+            itaque vitae necessitatibus deleniti facere sunt. Sint ab excepturi ipsam 
+            rem iste.Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Expedita ab corporis libero recusandae, fuga cupiditate? Eius illum quam 
+            itaque vitae necessitatibus deleniti facere sunt. Sint ab excepturi ipsam 
+            rem iste..</p>
+        </div>
+
+    </article>
+ 
+ 
+    <!-- inicio del carrousel de noticias--> 
+    <div class="contenedor" id="Noticia">
+            
+        <div class="atras botones">
+            &#60
+        </div>
+
+        <div class="adelante botones">
+            &#62
+        </div>
+
+        <a href=""><img src="img/ImagenNoticia.jpg" alt="" id="imagen"></a> 
+    </div>
+
+    <script src="js/main.js" ></script>
+    <!--Fin del carrousel de noticias-->
+
+    <section class="formularios1">
+
+        <div class="asociate">
+            <div class="asociateContenido">
+                <h3>ASOCIATE A LA CAMARA DE INDUSTRIA Y PRODUCCION DE BRANDSEN</h3>
+                <p>Forma parte de nuestra institución y acceda a servicios especializados para la mejora de su comercio.</p>
+                <a href="">ASOCIATE</a>
+            </div>
+
+
+        </div>
+
+        <div class="suscribete">
+            
+            <div class="suscribeteContenido">
+
+                <p> Suscríbase para recibir la agenda más actualizada del comercio internacional</p>
+                <form action="enviar.php" method="post" class="FormSuscribete">
+                        <input type="text" name="nombre" id="" class="Campo" placeholder="    NOMBRE" required>
+                        <input type="text" name="mail" id="" class="Campo" placeholder="    MAIL" required>
+                        <input type="submit" value="SUSCRIBIRME" class="Boton">
+                </form>
+                
+
+            </div>
+        </div>
+    </section>
+
+    <section class="Contacto" id="Contacto">
+        
+        <div class="ContenedorContacto">
+
+            <div class="Contactoinfo">
+                <h1>CONTACTO</h1>
+
+
+                <p>UBICACION</p> 
+                <p>
+                    xxxxxxxxxxxxxxxxxxx
+                    <br>xxxxxxxxxxxxx
+                </p>
+
+                <p>TELEFONOS</p> 
+                <p>
+                    xxxxxxxxxxxxxxxxxxx
+                    <br>xxxxxxxxxxxxx
+                </p>
+
+                <p>HORARIOS DE ATENCION</p> 
+                <p>
+                    xxxxxxxxxxxxxxxxxxx
+                    <br>xxxxxxxxxxxxx
+                </p>
+            </div>
+
+            <form action="" class="FormContacto">
+                <h1>ENVIANOS DUDAS</h1>
+                <input type="text" name="NombreContacto" id="NombreContacto" placeholder="   Nombre" class="NombreContacto">
+                <input type="text" name="MailContacto" id="MailContacto" placeholder="   Mail" class="Mail">
+                <textarea name="DetalleContacto" id="DetalleContacto" class="Detalle"  placeholder="   Detalle"></textarea>
+            </form>
+
+
+        </div>
+    </section>
+
+    <footer>
+
+    </footer>
+
+</body>
+</html>
+
